@@ -229,3 +229,20 @@ h3{
     opacity: 1;
 
 }
+footer {
+    background: #eee;
+    padding: 5rem 0 0;
+  }
+  
+  .footer-logo {
+    width: 60px;
+    padding-bottom: 1rem;
+  }
+  .footer-primary {
+    max-width: 1000px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+  }
