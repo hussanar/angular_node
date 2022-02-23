@@ -1,0 +1,19 @@
+section p{
+    color:red;
+}
+section > p{
+    color:orange
+}
+
+h1 + p /*apply to the next paragraph after head*/
+{
+
+ background-color: blue;
+}
+h1 ~ p {/*the ~ symbol apply the styles to all paragrpah*/
+    
+    background-color: antiquewhite;
+}
+h1 > p{/*apply the styles to the direct chiled*/
+    background-color: antiquewhite;
+}

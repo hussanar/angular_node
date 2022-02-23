@@ -1,0 +1,16 @@
+a:link{
+    font-size: 35px;
+    text-decoration: none;
+    color:gold;
+}
+a:visited{
+    color:aquamarine
+}
+a:hover{
+    color:blue
+
+}
+a:active{}
+.dropdown content a{
+display: none;
+}

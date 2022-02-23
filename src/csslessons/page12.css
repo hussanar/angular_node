@@ -1,0 +1,15 @@
+h1::first-letter{/*style will apply only the first letter*/
+    font-size:70 ;
+    font-style: bold;
+    color:brown;
+}
+h1::before{/*the style will apply to the element before the h1 */
+    content: "this is";
+    color:blue;
+}
+h1::after{/*style aply after the h element*/
+    content: "my page";
+    color:green;
+    font-size: 50px;
+
+}

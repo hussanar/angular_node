@@ -1,0 +1,21 @@
+div{
+    text-align:right
+}
+p{
+    background-color: rgb(33, 124, 33);
+    color: firebrick;
+    font-size: 25px;
+    text-align: center;
+}
+div p{
+    display:inline;
+    background-color: rgb(53, 41, 218);
+    color: firebrick;
+    font-size: 25px;
+    text-align: right;
+
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold ;
+}

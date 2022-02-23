@@ -1,0 +1,28 @@
+div{
+    width:500px;
+    height:500px;
+    border:5px solid red;
+    color:aquamarine;
+    background-image: url(https://cache.desktopnexus.com/thumbseg/976/976802-bigthumbnail.jpg);
+    margin: 100px auto;
+  
+}
+#div1{
+    width:500px;
+    height:500px;
+    border:5px solid red;
+    color:aquamarine;
+    background-image: url(https://cache.desktopnexus.com/thumbseg/976/976802-bigthumbnail.jpg);
+    margin: 100px auto;
+    background-size: 200px;
+}
+#div2{
+    width:500px;
+    height:500px;
+    border:5px solid red;
+    color:aquamarine;
+    background-image: url(https://cache.desktopnexus.com/thumbseg/976/976802-bigthumbnail.jpg);
+    margin: 100px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
