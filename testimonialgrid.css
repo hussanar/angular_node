@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+}
+.main-box{
+    width:70rem;
+    height:35rem;
+    margin:11rem auto;
+    display:grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1.3rem;
+    column-gap: 1.3rem;
+}
+.box{
+    border-radius:8px;
+    box-shadow: 0px 0px 31px -19px black;;
+    
+}
+
+.box-1{
+    grid-column-start:1;
+    grid-column-end: 3;
+    background-color: hsl(263, 55%, 52%);
+    background-image:url();
+    background-repeat:no-repeat;
+    background-position-x: 22rem;
+    background-size: 7.5rem;
+    color: hsl(0, 0%, 81%);
+
+}
+.box-2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: hsl(217, 19%, 35%);
+    color:hsl(210, 46%, 95%);
+}
+.box-3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    background-color: white;
+    color: hsl(217, 19%, 35%);
+}
+
+
+
+
+
+.name-img{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 2.5rem 1rem;
+}
+
+.name-img>img{
+    width: 2rem;
+    border-radius: 30px;
+}
+
+.name{
+    margin-left: 1rem;
+}
+
+.name>p{
+    opacity: 50%;
+}
+
+.review{
+    margin: 1rem 1rem 2rem 2.5rem;
+    width: 29.5rem;
+}
+
+.review1>h2{
+    width: 11rem;
+}
+
+.review>p{
+    line-height: 1.5;
+    opacity: 70%;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.review1{
+    width: 12rem;
+}
+
+@media only screen and (max-width:1100px){
+
+    .main-box{
+        width: 21rem;
+        height: 116rem;
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        margin: 5rem auto;
+    }
+
+    .box-1{
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        background-position-x: 12rem;
+        background-size: 7.3rem;
+    }
+
+    .box-2{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+    }
+    
+    .box-3{
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+    }
+    
+    
+
+    .review{
+        width: 15.9rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .review>h2{
+        width: 16rem;
+    }
+    .review>p{
+        width: 16.4rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .review1{
+        width: 15.5rem;
+    }
+
+}
