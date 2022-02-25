@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@400;600;700&family=Outfit:wght@300;400;500;600&family=Poppins:ital,wght@0,200;0,400;0,600;0,700;0,800;1,200;1,300&display=swap');
+
+:root
+{
+--pinka: hsl(322, 100%, 66%);
+--Pink: hsl(321, 100%, 78%);
+--Red: hsl(0, 100%, 63%);
+--Cyan: hsl(192, 100%, 9%);
+--PaleBlue: hsl(207, 100%, 98%);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    color:var(--Cyan);
+    font-family: 'open sans',serif;
+    font-size: 1.15rem;
+    margin: 0;
+}
+h1,h2{
+    font-family: 'poppins',serif;
+}
+p{
+    opacity: 0.6;
+}
+img{
+    max-width: 100%;
+}
+.btn{
+    border-radius: 50px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.15);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 60px;
+}
+.btn-primary{
+    background-color:var(--pinka) ;
+    color: #fff;
+}
+.container{
+    padding: 0 40px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1000px;
+
+}
+.center{
+    text-align:center;
+}
+.flex{
+ text-align: center;
+  
+}
+.flex >div,.flex>ul{
+    flex:1;
+}
+.align-start{
+    align-items: flex-start;
+}
+header{
+    background-image: url('./images/bg-section-top-desktop-1.svg');
+    background-size: cover;
+    background-position: center center;
+    background-color:var(--PaleBlue);
+    padding: 40px 0;
+    display:inline-table;
+  
+
+}
+ nav{
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.header-img{
+    margin-left: 240px;
+    width: 60%;
+    margin-top: 20px;
+}
+ nav{
+     display: flex;
+ }
+ .box{
+     background-color: #fff;
+     border-radius: 15px;
+     box-shadow: 0 0 10px rgba(0,0,0, 0.15);
+     margin: 40px 0;
+     padding: 60px;
+
+ }
+ .small-box{
+     display: inline-block;
+     position: relative;
+     margin-bottom: -50px;
+     z-index: 1;
+ }
+ footer{
+     background-color: var(--Cyan);
+     color:#fff;
+     padding: 180px 0 60px;
+ }
+ footer ul{
+     list-style-type: none;
+ }
+ footer ul li{
+     margin-bottom: 20px;
+ }
+ footer .social-media{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ footer .circle{
+     border: 1px solid #fff;
+     border-radius: 50%;
+     color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px ;
+    height:40;
+    width:40;
+    text-decoration: none;
+
+ }
+ footer .container {
+     display: flex;
+     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+ }
+.container>div{
+     display: flex;
+
+ }
+footer>.logo{
+    color: #fff;
+    background-color: #fff;
+}
+#fa{
+    color: #fff;
+    background-color: #fff;
+    margin-bottom:20px ;
+}
+span{
+    text-align: center;
+}
+#btn1{
+    margin-left: 300px;
+}
