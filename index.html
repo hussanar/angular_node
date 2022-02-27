@@ -6,13 +6,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
+    <link rel="stylesheet" href="indexdesign.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Merriweather:ital@1&family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+    <style type="text/css">
+
+
+        *{
+         margin: 0px;
+         padding: 0px;
+        }
+        body{
+         font-family: arial;
+        }
+        .main{
+        
+         margin: 2%;
+        }
+        
+        .card{
+             width: 20%;
+             display: inline-block;
+             box-shadow: 2px 2px 20px black;
+             border-radius: 5px; 
+             margin: 2%;
+            }
+        
+        .image img{
+          width: 100%;
+          border-top-right-radius: 5px;
+          border-top-left-radius: 5px;
+          padding-top: 10px;
+          
+        
+         
+         }
+        
+        .title{
+         
+          text-align: center;
+          padding: 10px;
+          
+         }
+        
+        h1{
+          font-size: 20px;
+         }
+        
+        .des{
+          padding: 3px;
+          text-align: center;
+         
+          padding-top: 10px;
+                border-bottom-right-radius: 5px;
+          border-bottom-left-radius: 5px;
+        }
+        button{
+          margin-top: 40px;
+          margin-bottom: 10px;
+          background-color: white;
+          border: 1px solid black;
+          border-radius: 5px;
+          padding:10px;
+        }
+        button:hover{
+          background-color: black;
+          color: white;
+          transition: .5s;
+          cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: large;
+        }
+        a:hover{
+            color: #fff;
+        }
+        #head{
+            font-size: 26px;
+            font-weight: 400;
+            padding-top: 20px ;
+           
+        }
+        .covid{
+            margin-top: 40px;
+            padding-top: -40px;
+
+        }
+        .ordersummary{
+            margin-top: 0px;
+        }
+        .Huddle>h1{
+            margin-bottom:-40px;
+        }
+        
+        
+        </style>
     <div>
         <table style="margin:auto">
             <caption>
-                MENU LIST FOR HTML
+             <header id="head">  MENU LIST FOR HTML</header> 
             </caption>
             <thead>
                 <tr>
@@ -51,20 +150,8 @@
                             <a href="parent-frame.html">parent frame</a>
                         </div><div>
                             <a href="radio.html">radio</a>
-                        </div><div>
-                            <a href="watches.html">testproject</a>
-                            <a href="watches.css">testproject<a>
-                                <br>
-                          front-end  <a href="qrcode.html">qrcode<a>
-                              <br>
-         <a href="testimonialgrid.html">testimonialgrid<a><br>
-         <a href="frontendmentor/ordersummary.html">ordersummary<a></a><br>
-         <a href="frontendmentor/nft-preview-card-component-main/index.html">nft-preview-card-component<a></a><br>
-         <a href="frontendmentor/huddle-landing-page-with-curved-sections-master/index.html">huddle-landing-page-with-curved-sections-master<a></a><br>
+                        </div>
          
-         <a href="frontendmentor/stats-preview-card-component-main/index.html">statepreviwcard<a></a><br>
-         <a href="./frontendmentor/fylo-landing-page-with-two-column-layout-master/index.html">fylo-landing-page<a></a><br>
-         <a href="./frontendmentor/3-column-preview-card-component-main/index.html">3-column-preview-card-component-main<a></a>
 
 
 
@@ -75,6 +162,196 @@
             </tbody>
         </table>
     </div>
-</body>
 
+
+    <div class="main">
+
+        <!--cards -->
+       
+       <div class="card">
+       
+       <div class="image">
+          <img src="../angular_node/images/Screenshot (161).png">
+       </div>
+       <div class="title">
+        <h1>
+            Tribute to APJ Abdul Kalam</h1>
+       </div>
+       <div class="des">
+        <p>Honor Tribute to Dr.Abdul kalam</p>
+       <button> <a href="./src/tributeAPG.html">View-More</a></button>
+       </div>
+       </div>
+       <!--cards -->
+       
+       
+       <div class="card">
+       
+       <div class="image covid">
+          <img src="./images/Screenshot (162).png">
+       </div>
+       <div class="title">
+        <h1>COVID-19 Survey
+               </h1>
+       </div>
+       <div class="des">
+        <p> form</p>
+       <button>  <a href="./src/covid19.html">View-More</a></button>
+       </div>
+       </div>
+       <!--cards -->
+       
+       
+       <div class="card">
+       
+       <div class="image nft">
+          <img src="https://i.ytimg.com/vi/dyf3aLZ7Dyo/maxresdefault.jpg">
+       </div>
+       <div class="title">
+        <h1>
+            nft-preview-card-componen</h1>
+       </div>
+       <div class="des">
+        <p>frontendmentor nft-preview-card-componen ...</p>
+       <button> <a href="frontendmentor/nft-preview-card-component-main/index.html">View-More<a></a><br></button>
+       </div>
+       </div>
+       <!--cards -->
+       
+       
+       <div class="card">
+       
+       <div class="image">
+          <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1645616167/Screenshots/jt7mdovqwqrwxv5ijuke.jpg">
+       </div>
+       <div class="title">
+        <h1>
+            Qrcode component
+      </h1>
+       </div>
+       <div class="des">
+        <p>    Qrcode component frontendmentor</p>
+       <button><a href="qrcode.html">View-More<a></button>
+       </div>
+       </div>
+       <!--cards -->
+       
+       
+       <div class="card">
+       
+       <div class="image">
+          <img src="./images/Screenshot (165).png">
+       </div>
+       <div class="title">
+        <h1>
+       watches</h1>
+       </div>
+       <div class="des">
+        <p> watches Landing page...</p>
+       <button> <a href="watches.html">View-More</a></button>
+       </div>
+       </div>
+       <!--cards -->
+       
+       <div class="card">
+       
+       <div class="image">
+          <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1603385725/Challenges/uctyehbyqpp90valvmwn.jpg">
+       </div>
+       <div class="title">
+        <h1>
+            testimonialgrid</h1>
+       </div>
+       <div class="des">
+        <p>testimonialgrid frontendmentor </p>
+       <button><a href="testimonialgrid.html">View-More<a></button>
+       </div>
+       </div>
+       <!--cards -->
+       
+       <div class="card ordersummary">
+       
+       <div class="image">
+          <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--wgSuYqCY--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3l71jisduvispvdge990.png">
+       </div>
+       <div class="title">
+        <h1>ordersummary
+     </h1>
+       </div>
+       <div class="des">
+        <p>frontendmentor ordersummary</p>
+        
+        <button>  <a href="frontendmentor/ordersummary.html">View-More<a></a></button>
+       
+       </div>
+       </div>
+       <!--cards -->
+       
+       
+       <div class="card Huddle">
+       
+       <div class="image">
+          <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1554378991/Challenges/aaykth21moiquxkubywu.jpg">
+       </div>
+       <div class="title">
+        <h1>
+            Huddle-landing-page</h1>
+       </div>
+       <div class="des">
+        <p>huddle-landing-page</p>
+       <button> <a href="frontendmentor/huddle-landing-page-with-curved-sections-master/index.html">View-More<a></a></button>
+       </div>
+       </div>
+       <!--cards -->
+       
+       
+       <div class="card">
+       
+       <div class="image">
+          <img src="./images/Screenshot (168).png">
+       </div>
+       <div class="title">
+        <h1>
+            statepreviwcard</h1>
+       </div>
+       <div class="des">
+        <p>statepreviwcard frontend mentor</p>
+       <button>  <a href="frontendmentor/stats-preview-card-component-main/index.html">View-More<a></a></button>
+       </div>
+       </div>
+       <!-----------card-------------->
+
+       <div class="card">
+       
+        <div class="image">
+           <img src="https://fylo-landing-page-tan.vercel.app/images/illustration-2.svg">
+        </div>
+        <div class="title">
+         <h1>
+            fylo-landing-page</h1>
+        </div>
+        <div class="des">
+         <p>fylo-landing-page frontend mentor</p>
+        <button>  <a href="./frontendmentor/fylo-landing-page-with-two-column-layout-master/index.html">View-More<a></a></button>
+        </div>
+        </div>
+         <!-----------card-------------->
+         
+       <div class="card">
+       
+        <div class="image">
+           <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--S59_STs6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/51w9hdboghxakfqe0puv.png">
+        </div>
+        <div class="title">
+         <h1>
+            3-column-preview</h1>
+        </div>
+        <div class="des">
+         <p>3-column-preview-card-component-main</p>
+        <button>  <a href="./frontendmentor/3-column-preview-card-component-main/index.html">View-More<a></button>
+        </div>
+        </div>
+       </div>
+</body>
+ 
 </html>
