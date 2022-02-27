@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Lexend+Deca&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&family=Poppins:ital,wght@0,200;0,400;0,600;0,700;0,800;1,200;1,300&display=swap');
+:root{
+
+--Cyan: hsl(179, 62%, 43%);
+--BrightYellow: hsl(71, 73%, 54%);
+--Gray: hsl(204, 43%, 93%);
+--GrayishBlue: hsl(218, 22%, 67%);
+}
+html{
+    font-family: "Karla",sans-serif;
+    font-size: 16px;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+.sec{
+    min-height: 100vh;
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(218, 22%, 67%) ;
+}

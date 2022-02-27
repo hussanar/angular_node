@@ -1,0 +1,45 @@
+:root{
+--Light:hsl(356, 100%, 66%);
+--background: hsl(355, 100%, 74%);
+--headings: hsl(208, 49%, 24%);
+
+ /*Neutral*/
+
+--text: hsl(0, 0%, 100%);
+--footertext: hsl(240, 2%, 79%);
+--body: hsl(207, 13%, 34%);
+--footerbackground: hsl(240, 10%, 16%);
+
+/*### Gradient*/
+
+/*Background gradient - Intro/CTA mobile nav:*/
+
+--lightred: hsl(13, 100%, 72%);
+--Lightred: hsl(353, 100%, 62%);
+
+/*Background gradient - body:
+- Mobile: 375px
+- Desktop: 1440px
+Font size: 16px*/
+
+--grayblue: hsl(237, 17%, 21%);
+--blue: hsl(237, 23%, 32%);
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Ubuntu',sans-serif;
+}
+p{
+    font-size: 16px;
+}
+h2,h1,h3,h4,h5,h6{
+    color:hsl(208, 49%, 24%);
+}

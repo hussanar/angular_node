@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+:root{
+--Brightorange: hsl(31, 77%, 52%);
+--Darkcyan: hsl(184, 100%, 22%);
+--Verydarkcyan: hsl(179, 100%, 13%);
+--Transparentwhite-paragraphs: hsla(0, 0%, 100%, 0.75);
+--Verylightgray-background-headings-buttons: hsl(0, 0%, 95%)
+
+}
+
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 15px;
+   
+}
+
+body,button{ 
+    
+    font-family: "Lexend Deca",sans-serif,;
+}
+p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+h3{
+
+    font-family: "Big Shoulders Display",sans-serif;
+    font-size: 24px;
+    font-variant-alternates: uppercase;
+    font-size: 30px;
+ }
+ .bright-orange{
+     background-color:  hsl(31, 77%, 52%) ;
+        color:#fff;
+        border-radius: 10px 10px  0 0;
+ }
+ .bright-orange  .btn{
+     color: hsl(31, 77%, 52%);
+ }
+ .dark-cyan{
+     background-color: hsl(184, 100%, 22%) ;
+    color:#fff;
+ }
+ .dark-cyan .btn{
+     color:hsl(184, 100%, 22%);
+ }
+ .verydark-cyan{
+     background-color:  hsl(179, 100%, 13%);
+    color:#fff;
+    border-radius: 0 0 10px 10px ;
+
+ }
+ .verydark-cyan .btn{
+     color: hsl(179, 100%, 13%);
+ }
+
+ .btn{
+     background-color: #fff;
+     margin: 2px solid #fff;
+     padding: 10px 20px;
+     border-radius: 30px;
+     cursor: pointer;
+     transition: all 0.4s ease-in-out;
+ }
+ .btn:hover{
+     background-color: transparent;
+     color: #fff;
+ }
+ .card{
+     padding: 30px;
+ }
+.container{
+    padding: 20px;
+}
+.card img{
+   margin-bottom: 20px;
+}
+.card h3{
+    margin-bottom: 20px;
+
+}
+.card p{
+    margin-bottom: 30px;
+}
+
+
+
+@media (min-width: 990px){
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        max-width: 900px;
+        margin: auto;
+    }
+    .bright-orange{
+        border-radius:  10px  0 0 10px ;
+    }
+    .verydark-cyan{
+        border-radius: 0 10px 10px 0;
+    }
+    .card p{
+        margin-bottom: 40px;
+    }
+    .card{
+        padding: 45px;
+    }
+}
+@media (min-width: 1280px){
+    .conatiner{
+        max-width: 1100px;
+    }
+}
+
+
+
