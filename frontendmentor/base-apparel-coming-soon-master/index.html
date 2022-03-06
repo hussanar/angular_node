@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <img src="/images/logo.svg" alt="This is a logo" />
+  </header>
+  <div class="container">
+    <!--Split of main content-->
+    <div class="left">
+      <div class="title">
+        <div>
+          <h1 id="Accent">We're</h1>
+        </div>
+        <div>
+          <h2 id="noAccent">Coming soon<h2>
+        </div>
+      </div>
+
+
+      <div>
+        <h3 class="snippet">
+          Hello fellow shoppers! We're currently building our new fashion
+          store. Add your email below to stay up-to-date with announcements
+          and our launch deals.
+        </h3>
+      </div>
+
+
+
+
+      <form>
+
+        <label>
+          <input type="email" class="email-input" placeholder="Enter Email Address" />
+        </label>
+
+        <img class="error-icon" src="/images/icon-error.svg" alt="This is a error icon" />
+
+
+        <button id="myBtn">
+          <svg viewBox="0 0 20 20" class="arrow" aria-label="icon">
+            <path d="M0 0 L10 10 L0 20 20"></path>
+          </svg>
+        </button>
+
+        <h4 id="error-text" class="error-text">
+          Please provide a valid email
+        </h4>
+      </form>
+    </div>
+
+    <div class="right"></div>
+  </div>
+  </main>
+
+
+
+  <script src="mian.js"></script>
+</body>
+
+</html>
