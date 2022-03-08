@@ -26,6 +26,7 @@
  }
  p{
      line-height: 1.5;
+     color:var(--Grayish-Blue)
  }
  .container{
      margin: 0 auto;
@@ -110,3 +111,17 @@ footer .container_flex ul>li {
 .logo{
     margin-left: -100px;
 }
+
+.last{
+    margin-right:-200px;
+}
+
+ @media (max-width:768px){
+     .flex{
+         flex-direction: column;
+     }
+     footer.link li{
+         padding: 10px;
+         margin-right:0;
+     }
+ }
