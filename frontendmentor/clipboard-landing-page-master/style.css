@@ -30,6 +30,12 @@
      width: 1200px;
 
  }
+ .container_flex{
+      display: flex;
+      text-align: center;
+      justify-content: center;margin-top: 50px;
+      margin-left: 30px;
+ }
  .container-small{
     width: 700px;
  }
@@ -76,7 +82,8 @@ footer ul{
     list-style-type: none;
 }
 footer ul a{
-    
+    color: var(--Dark-Grayish-Blue);text-decoration: none;
+
 }
 footer links{
     flex:3;
