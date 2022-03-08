@@ -5,4 +5,82 @@
 --Dark-Grayish-Blue: hsl(210, 10%, 33%);
 --Grayish-Blue: hsl(201, 11%, 66%);
 }
+ *{
+     box-sizing: border-box;
+     
+ }
+ body{
+  font-family:'Bai Jamjuree',sans-serif;
+  text-align: center;
+  color:var(--Dark-Grayish-Blue);
  
+ }
+ header{
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0 40px;
+ }
+ img{
+     max-width: 100%;
+ }
+ .container{
+     margin: 0 auto;
+     max-width: 100%;
+     width: 1200px;
+
+ }
+ .container-small{
+    width: 700px;
+ }
+.container .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .flex >*{
+       flex:1;
+       padding: 10px;
+ }
+.btn{
+    border: none;
+    color: #fff;
+    font-family: 'Bai Jamjuree',sans-serif;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 50px;
+    margin:5px;
+ 
+}
+.btn-primary{
+  background-color: var(--Strong-Cyan);
+  box-shadow: 0 4px var(--Strong-Cyan);
+}
+.btn-secondary{
+    background-color: var(--Light-Blue);
+    box-shadow: 0 4px var(--Light-Blue);
+
+}
+footer{
+    background-color: var(--Grayish-Blue);
+
+}
+footer img{
+    width :60px;
+}
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style-type: none;
+}
+footer ul a{
+    
+}
+footer links{
+    flex:3;
+}
+footer .links li{
+    margin-right: 20px;
+}
