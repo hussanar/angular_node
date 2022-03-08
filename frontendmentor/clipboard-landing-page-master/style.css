@@ -24,6 +24,9 @@
  img{
      max-width: 100%;
  }
+ p{
+     line-height: 1.5;
+ }
  .container{
      margin: 0 auto;
      max-width: 100%;
@@ -35,6 +38,9 @@
       text-align: center;
       justify-content: center;margin-top: 50px;
       margin-left: 30px;
+ }
+ .container_flex>div{
+     margin: 30px;
  }
  .container-small{
     width: 700px;
@@ -85,9 +91,22 @@ footer ul a{
     color: var(--Dark-Grayish-Blue);text-decoration: none;
 
 }
-footer links{
+footer .container{
+    margin: 0;
+}
+.footer{
     flex:3;
 }
-footer .links li{
+footer >ul>li{
     margin-right: 20px;
+}
+
+footer .container_flex ul>li {
+    margin-right: 20px;
+}
+.container_center{
+    display: flex;
+}
+.logo{
+    margin-left: -100px;
 }
