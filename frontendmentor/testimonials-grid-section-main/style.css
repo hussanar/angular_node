@@ -28,13 +28,13 @@ main{
   border-radius: 15px;
   padding: 30px 40px;
 }
-.card-head{
+.card__head{
   display: flex;
   align-items: center;
   color: hsl(0, 0%, 81%);
   margin-bottom: 10px;
 }
-.card-head img{
+.card__head img{
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -48,12 +48,12 @@ main{
 .title{
   opacity: 0.5;
 }
-.card-heading{
+.card__heading{
   color: #fff;
   margin-bottom: 10px;
   font-size: 20px;
 }
-.card-detail{
+.card__detail{
   color: hsl(0, 0%, 81%);
   line-height: 1.5;
   opacity: 0.7;
@@ -82,12 +82,12 @@ main{
   grid-column: 4/5;
   background-color: #fff;
 }
-.card-3 .card-heading,
-.card-3 .card-head,
-.card-3 .card-detail,
-.card-5 .card-heading,
-.card-5 .card-head,
-.card-5 .card-detail{
+.card-3 .card__heading,
+.card-3 .card__head,
+.card-3 .card__detail,
+.card-5 .card__heading,
+.card-5 .card__head,
+.card-5 .card__detail{
   color: #222;
 }
 @media (max-width: 1024px){

@@ -152,3 +152,6 @@ span{
 #btn1{
     margin-left: 300px;
 }
+.containerend {
+    display: flex;
+}
