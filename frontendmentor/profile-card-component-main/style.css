@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   
 }
 
 body {
-    font-family: 'Kumbh Sans',
-        sans-serif;
-    background-color: hsl(185, 75%, 39%);
-    display: flex;
     align-items: center;
-    min-height: 100vh;
+    background-color: hsl(185, 75%, 39%);
     background-image: url(https://digitshack.com/codepen/mentor4/bg-pattern-top.svg), url(https://digitshack.com/codepen/mentor4/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: right 48vw bottom 40vh,
         left 45vw top 44vh;
-}
+    display: flex;
+    font-family: 'Kumbh Sans',   sans-serif;
+    min-height: 100vh;
+   }
 
 .container {
     margin: 0 auto;
@@ -25,20 +25,22 @@ body {
 }
 
 .wrapper {
-    max-width: 420px;
     background-color: #FFF;
     border-radius: 15px;
-    overflow: hidden;
+    max-width: 420px;
     margin: 1rem;
+    overflow: hidden;
+   
+    
 }
 
 .content img {
-    width: 100px;
-    height: 100px;
     border-radius: 50%;
     border: 4px solid #FFF;
+    height: 100px;
     margin-top: -52px;
     margin-bottom: 20px;
+    width: 100px;
 }
 
 .content h2 {
@@ -59,16 +61,17 @@ body {
 }
 
 .footer {
+    border-top: 1px solid hsla(227, 10%, 46%, 0.2);
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid hsla(227, 10%, 46%, 0.2);
-    padding: 30px 50px;
     margin-top: 30px;
+    padding: 30px 50px;
+   
 }
 
 .footer p.num {
-    font-size: 18px;
     color: hsl(229, 23%, 23%);
+    font-size: 18px;
     font-weight: 700;
     margin-bottom: 5px;
 

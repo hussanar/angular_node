@@ -2,11 +2,12 @@ html,body{
     overflow-x: hidden;
 }
 body{
-    min-height:100vh;
+   
     background-color:var(--background-color);
     background-image: url(../../angular_node/images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    min-height:100vh;
     overflow-y: scroll;
 
 
@@ -28,85 +29,86 @@ body{
 
 }
 *{
+    box-sizing: border-box;
     margin:0;
     padding:0;
-    box-sizing: border-box;
 }
 .order-center-container { 
-    position: relative;
-    width: 90%;
-    max-width: 28.3rem; 
+    align-content: center;
+    background-color: white;
+    box-shadow: var(--container-box-shadow);
+    border-radius: 25px;
+    justify-content: center;
     height: 100vh;
+    position: relative;
+    max-width: 28.3rem; 
     max-height: 44rem; 
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
-    justify-content: center;
-    align-content: center;
-    background-color: white;
-    border-radius: 25px;
-    text-align: center;
     overflow: hidden;
-    -webkit-box-shadow: var(--container-box-shadow); -moz-box-shadow: var(--container-box-shadow); 
-    box-shadow: var(--container-box-shadow);
+    text-align: center;
+     -webkit-box-shadow: var(--container-box-shadow); -moz-box-shadow: var(--container-box-shadow); 
+    width: 90%;
+
 }
 
 .order-header-image{ 
-    width: 100%;
-    height: 100%;
-    min-height: 14rem;
     background-position: center center; 
     background-size: cover;
     background-image: url("../images/illustration-hero.svg") ;
     background-repeat: no-repeat;
     border-radius: 25px 25px 0 0;
+    height: 100%;
+    min-height: 14rem;
     overflow: hidden;  
+    width: 100%;
 
 }
 .order-title-container {
-    width: 80%;
-    height: 100%;
-    max-height: 14rem;
-    font-family: var(--main-font);
     color: var(--dark-blue);
-    text-align: center;
+    height: 100%;
+    font-family: var(--main-font);
+    max-height: 14rem;
     margin: 0 auto;
     margin-top: 3rem;
-    
+    text-align: center;
+    width: 80%;
 
 }
 .order-title-container h1{
+    font-weight: 900;
     font-size: 1.5rem;
     letter-spacing: 2px;
-    font-weight: 900;
+  
 
 }
 
 .order-pricing-container {
-
-    background-color: var(--very-pale-blue);
-    font-family: var(--main-font);
-    width: 70%;
-    display: inline-flex;
-    flex-direction: row;
     align-content: space-between;
     align-items: center; 
     border-radius: 10px;
+    background-color: var(--very-pale-blue);
+    font-family: var(--main-font);
+    font-weight: 900; 
+    width: 70%;
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 1rem;
+    gap: 1rem;
+    justify-content:space-evenly;
     margin-top: 1.5rem;
     padding: 1.5rem;
-    font-size: 1rem;
-    justify-content:space-evenly;
-    font-weight: 900; 
-    gap: 1rem;
-}
+  }
 .music-img {
-   width: 3.5rem;
-   height: 3rem;
+  
+  
    background-image: url("../../angular_node/images/icon-music.svg");
    background-position: center center;
    background-repeat: no-repeat;
    background-size: contain;
-    
+   height: 3rem; 
+   width: 3.5rem;
     } 
 
     .order-pricing-container .order-annual-plan { 
@@ -126,30 +128,31 @@ body{
         }
         
    .btn-payment {
-        background-color: var(--bright-blue); 
-        border-radius: 15px; 
-        font-family: var(--main-font);
-        width: 80%;
-        min-width: 80%; padding: 1rem;
-        margin-top: 2rem;
         border: transparent;
         box-shadow: var(--btn-box-shadow);
-         color: var(--white);
+        background-color: var(--bright-blue); 
+        border-radius: 15px; 
+        color: var(--white);
+        font-family: var(--main-font);
+        min-width: 80%; padding: 1rem;
+        margin-top: 2rem;
+        width: 80%;
         }
     
     .btn-payment {
 
     background-color: var(--bright-blue);
     border-radius: 15px;
-    font-family: var(--main-font);
-    width: 80%;
-    min-width: 80%;
-    padding: 1rem;
-    margin-top: 2rem;
     border: transparent;
-    box-shadow: var(--btn-box-shadow); color: var(--white);
+    box-shadow: var(--btn-box-shadow);
+    color: var(--white);
+    font-family: var(--main-font);
     font-size: 1rem;
     font-weight: 700;
+    min-width: 80%;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 80%;
             
             }
             
@@ -157,13 +160,16 @@ body{
 
             background-color: transparent;
             border: none;
-            margin-bottom: 10rem;
-            font-weight: 700;
-            margin-top: 2rem;
-            text-transform: capitalize;
             color: var(--light-grey);
-            text-decoration: none;
             font-size: 1rem;
+            font-weight: 700;
+            text-decoration: none;
+            text-transform: capitalize;
+            margin-bottom: 10rem;
+            margin-top: 2rem;
+            
+           
+           
             }
 
 .btn-cancel:hover { 

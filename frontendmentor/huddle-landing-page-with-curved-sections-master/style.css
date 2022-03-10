@@ -17,7 +17,8 @@ body{
     font-size: 1rem;
     margin: 0;
 }
-h1,h2{
+h1,
+h2{
     font-family: 'poppins',serif;
 }
 p{
@@ -41,9 +42,9 @@ img{
     color: #fff;
 }
 .container{
-    padding: 0 40px;
-    margin: 0 auto;
     max-width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
     width: 1000px;
 
 }
@@ -51,7 +52,7 @@ img{
     text-align:center;
 }
 .flex{
- text-align: center;
+    text-align: center;
   
 }
 .flex >div,.flex>ul{
@@ -65,8 +66,9 @@ header{
     background-size: cover;
     background-position: center center;
     background-color:var(--PaleBlue);
-    padding: 40px 0;
     display:inline-table;
+    padding: 40px 0;
+
   
 
 }
@@ -77,8 +79,8 @@ header{
 }
 .header-img{
     margin-left: 240px;
-    width: 60%;
     margin-top: 20px;
+    width: 60%;
 }
  nav{
      display: flex;
@@ -109,26 +111,26 @@ header{
      margin-bottom: 20px;
  }
  footer .social-media{
-     display: flex;
-     justify-content: center;
-     align-items: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
  }
  footer .circle{
-     border: 1px solid #fff;
-     border-radius: 50%;
-     color: #fff;
-    display: inline-flex;
     align-items: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    height:40;
     justify-content: center;
     margin-right: 10px ;
-    height:40;
-    width:40;
     text-decoration: none;
+    width:40;
 
  }
  footer .container {
-     display: flex;
-     align-items: center;
+    align-items: center;
+    display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
 
@@ -138,12 +140,12 @@ header{
 
  }
 footer>.logo{
-    color: #fff;
     background-color: #fff;
+    color: #fff;
 }
 #fa{
-    color: #fff;
     background-color: #fff;
+    color: #fff;
     margin-bottom:20px ;
 }
 span{
@@ -156,6 +158,9 @@ span{
     display: flex;
 }
 .news-letter{
-    margin-left: 500px;
+    margin-left: 100px;
     text-align: center;
+}
+.cend{
+    margin-left: 100px;
 }

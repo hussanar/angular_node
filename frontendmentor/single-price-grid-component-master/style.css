@@ -1,62 +1,31 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Lexend+Deca&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&family=Poppins:ital,wght@0,200;0,400;0,600;0,700;0,800;1,200;1,300&display=swap');
-:root{
-
---Cyan: hsl(179, 62%, 43%);
---BrightYellow: hsl(71, 73%, 54%);
---Gray: hsl(204, 43%, 93%);
---GrayishBlue: hsl(218, 22%, 67%);
-}
-html{
-    font-family: "Karla",sans-serif;
-    font-size: 16px;
-}
-
-*{
-    box-sizing: border-box;
-    padding:0;
-    margin:0;
-}
-.sec{
-    min-height: 100vh;
-    display: flex;
-    width:100%;
-    align-items: center;
-    justify-content: center;
-    background-color: hsl(218, 22%, 67%) ;
-}*/
-
-
-
- 
-
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 html {
 	font-size: 16px;
 	font-family: 'karla', sans-serif;
 }
 * {
-	padding: 0;
-	margin: 0;
 	box-sizing: border-box;
-}
+	margin: 0;
+	padding: 0;
+	}
 section {
-	min-height: 100vh;
-	width: 100%;
-	display: flex;
 	align-items: center;
-	justify-content: center;
 	background-color: hsl(204, 43%, 93%);
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
 	padding: 100px 30px;
+	width: 100%;
 }
 .container {
+	box-shadow: 0px 0px 14px 1px #00000024;
+	border-radius: 8px;
 	display: grid;
 	grid-template-columns: 100%;
 	max-width: 550px;
 	margin: 0 auto;
-	border-radius: 8px;
 	overflow: hidden;
-	box-shadow: 0px 0px 14px 1px #00000024;
-}
+	}
 .item {
 	padding: 30px;
 }
@@ -99,18 +68,18 @@ section {
 	font-weight: 600;
 }
 .item-2 a {
-	text-align: center;
-	width: 100%;
-	padding: 15px;
+	box-shadow: 0px 4px 10px 1px #00000033;
 	border-radius: 8px;
-	display: inline-block;
 	background-color: hsl(71, 73%, 54%);
 	color: white;
-	text-decoration: none;
+	display: inline-block;
 	font-size: 1.2rem;
-	margin-top: 30px;
 	font-weight: 700;
-	box-shadow: 0px 4px 10px 1px #00000033;
+	padding: 15px;
+	margin-top: 30px;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
 }
 .item-3 {
 	background-color: #4abebd;

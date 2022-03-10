@@ -9,10 +9,12 @@
 }
 
 *{
-    margin:0;
+   
     box-sizing: border-box;
-    padding: 0;
     font-size: 15px;
+    margin:0;
+    padding: 0;
+   
    
 }
 
@@ -33,23 +35,25 @@ h3{
  }
  .bright-orange{
      background-color:  hsl(31, 77%, 52%) ;
-        color:#fff;
-        border-radius: 10px 10px  0 0;
+     border-radius: 10px 10px  0  0;
+     color:#fff;
+    
  }
  .bright-orange  .btn{
      color: hsl(31, 77%, 52%);
  }
  .dark-cyan{
      background-color: hsl(184, 100%, 22%) ;
-    color:#fff;
+     color:#fff;
  }
  .dark-cyan .btn{
      color:hsl(184, 100%, 22%);
  }
  .verydark-cyan{
      background-color:  hsl(179, 100%, 13%);
-    color:#fff;
-    border-radius: 0 0 10px 10px ;
+     border-radius: 0 0 10px 10px ;
+     color:#fff;
+    
 
  }
  .verydark-cyan .btn{
@@ -57,11 +61,11 @@ h3{
  }
 
  .btn{
+     border-radius: 30px;
      background-color: #fff;
+     cursor: pointer;
      margin: 2px solid #fff;
      padding: 10px 20px;
-     border-radius: 30px;
-     cursor: pointer;
      transition: all 0.4s ease-in-out;
  }
  .btn:hover{
@@ -89,8 +93,8 @@ h3{
 
 @media (min-width: 990px){
     .container{
-        display: flex;
         align-items: center;
+        display: flex;
         justify-content: center;
         min-height: 100vh;
         max-width: 900px;
