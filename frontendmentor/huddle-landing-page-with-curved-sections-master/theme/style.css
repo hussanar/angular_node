@@ -1,166 +1,188 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@400;600;700&family=Outfit:wght@300;400;500;600&family=Poppins:ital,wght@0,200;0,400;0,600;0,700;0,800;1,200;1,300&display=swap');
-
-:root
-{
---pinka: hsl(322, 100%, 66%);
---Pink: hsl(321, 100%, 78%);
---Red: hsl(0, 100%, 63%);
---Cyan: hsl(192, 100%, 9%);
---PaleBlue: hsl(207, 100%, 98%);
+:root {
+    --pinka: hsl(322, 100%, 66%);
+    --Pink: hsl(321, 100%, 78%);
+    --Red: hsl(0, 100%, 63%);
+    --Cyan: hsl(192, 100%, 9%);
+    --PaleBlue: hsl(207, 100%, 98%);
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-body{
-    color:var(--Cyan);
-    font-family: 'open sans',serif;
+
+body {
+    color: var(--Cyan);
+    font-family: 'open sans', serif;
     font-size: 1rem;
     margin: 0;
 }
+
 h1,
-h2{
-    font-family: 'poppins',serif;
+h2 {
+    font-family: 'poppins', serif;
 }
-p{
+
+p {
     opacity: 0.6;
 }
-img{
+
+img {
     max-width: 100%;
 }
-.btn{
+
+.btn {
     border-radius: 50px;
     background-color: #fff;
     border: none;
-    box-shadow: 0 0 10px rgba(0,0,0, 0.15);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     cursor: pointer;
     font-size: 16px;
     font-weight: 700;
     padding: 15px 60px;
 }
-.btn-primary{
-    background-color:var(--pinka) ;
+
+.btn-primary {
+    background-color: var(--pinka);
     color: #fff;
 }
-.container{
+
+.container {
     max-width: 100%;
     margin: 0 auto;
     padding: 0 40px;
     width: 1000px;
+}
 
-}
-.center{
-    text-align:center;
-}
-.flex{
+.center {
     text-align: center;
-  
 }
-.flex >div,.flex>ul{
-    flex:1;
+
+.flex {
+    text-align: center;
 }
-.align-start{
+
+.flex>div,
+.flex>ul {
+    flex: 1;
+}
+
+.align-start {
     align-items: flex-start;
 }
-header{
-    background-image: url('./images/bg-section-top-desktop-1.svg');
+
+header {
+    background-image: url('../images/bg-section-top-desktop-1.svg');
     background-size: cover;
     background-position: center center;
-    background-color:var(--PaleBlue);
-    display:inline-table;
+    background-color: var(--PaleBlue);
+    display: inline-table;
     padding: 40px 0;
-
-  
-
 }
- nav{
+
+nav {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
 }
-.header-img{
+
+.header-img {
     margin-left: 240px;
     margin-top: 20px;
     width: 60%;
 }
- nav{
-     display: flex;
- }
- .box{
-     background-color: #fff;
-     border-radius: 15px;
-     box-shadow: 0 0 10px rgba(0,0,0, 0.15);
-     margin: 40px 0;
-     padding: 60px;
 
- }
- .small-box{
-     display: inline-block;
-     position: relative;
-     margin-bottom: -50px;
-     z-index: 1;
- }
- footer{
-     background-color: var(--Cyan);
-     color:#fff;
-     padding: 180px 0 60px;
- }
- footer ul{
-     list-style-type: none;
- }
- footer ul li{
-     margin-bottom: 20px;
- }
- footer .social-media{
+nav {
+    display: flex;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    margin: 40px 0;
+    padding: 60px;
+}
+
+.small-box {
+    display: inline-block;
+    position: relative;
+    margin-bottom: -50px;
+    z-index: 1;
+}
+
+footer {
+    background-color: var(--Cyan);
+    color: #fff;
+    padding: 180px 0 60px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    margin-bottom: 20px;
+}
+
+footer .social-media {
     align-items: center;
     display: flex;
     justify-content: center;
- }
- footer .circle{
+}
+
+footer .circle {
     align-items: center;
     border: 1px solid #fff;
     border-radius: 50%;
     color: #fff;
     display: inline-flex;
-    height:40;
+    height: 40;
     justify-content: center;
-    margin-right: 10px ;
+    margin-right: 10px;
     text-decoration: none;
-    width:40;
+    width: 40;
+}
 
- }
- footer .container {
+footer .container {
     align-items: center;
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+}
 
- }
-.container>div{
-     display: flex;
+.container>div {
+    display: flex;
+}
 
- }
-footer>.logo{
+footer>.logo {
     background-color: #fff;
     color: #fff;
 }
-#fa{
+
+#fa {
     background-color: #fff;
     color: #fff;
-    margin-bottom:20px ;
+    margin-bottom: 20px;
 }
-span{
+
+span {
     text-align: center;
 }
-#btn1{
+
+#btn1 {
     margin-left: 300px;
 }
+
 .containerend {
     display: flex;
 }
-.news-letter{
+
+.news-letter {
     margin-left: 100px;
     text-align: center;
 }
-.cend{
+
+.cend {
     margin-left: 100px;
 }
