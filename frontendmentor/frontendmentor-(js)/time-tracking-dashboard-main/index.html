@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="stylesheet" href="./theme/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="card">
+            <div id="report-for">
+                <img src="./images/image-jeremy.png" id="jeremy" alt="">
+                <div id="info">
+                    <p id="ReportFor">Report for</p>
+                    <h1 id="Name">Jeremy Robson</h1>
+                </div>
+            </div>
+            <div id="switchers-container">
+                <button class="btns" id="daily">Daily</button>
+                <button class="btns" id="weekly">Weekly</button>
+                <button class="btns" id="monthly">Monthly</button>
+            </div>
+        </div>
+
+        <!--************************* work card starts -->
+        <div class="data-container" id="work-con">
+
+            <img class="icons" src="./images/icon-work.svg" alt="">
+
+            <div class="data-cards">
+
+                <p class="card-name">Work
+                    <svg class="ellipsis" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                            fill-rule="evenodd" />
+                    </svg>
+                </p>
+
+
+
+                <!-- daily work data -->
+                <h2 class="daily-data">5hrs</h2>
+                <p class="daily-data-previous custom-pre">Last Day-7hrs</p>
+                <!-- weekly work data -->
+                <h2 class="weekly-data">32hrs</h2>
+                <p class="weekly-data-previous custom-pre">Last week-36hrs</p>
+                <!-- monthly work data -->
+                <h2 class="monthly-data">103hrs</h2>
+                <p class="monthly-data-previous custom-pre">Last month-128hrs</p>
+
+            </div>
+
+        </div>
+        <!--************************************************** work card ends -->
+
+        <!--************************************************* play card starts -->
+        <div class="data-container" id="play-con">
+
+            <img class="icons" src="./images/icon-play.svg" alt="">
+
+            <div class="data-cards">
+
+                <p class="card-name">Play
+                    <svg class="ellipsis" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                            fill-rule="evenodd" />
+                    </svg>
+                </p>
+
+
+
+                <!-- daily play data -->
+                <h2 class="daily-data">1hr</h2>
+                <p class="daily-data-previous custom-pre">Last Day-2hrs</p>
+                <!-- weekly play data -->
+                <h2 class="weekly-data">10hrs</h2>
+                <p class="weekly-data-previous custom-pre">Last week-8hrs</p>
+                <!-- monthly play data -->
+                <h2 class="monthly-data">23hrs</h2>
+                <p class="monthly-data-previous custom-pre">Last month-29hrs</p>
+
+            </div>
+
+        </div>
+        <!--************************************************* play card ends -->
+
+        <!--************************************************* study card starts -->
+        <div class="data-container" id="study-con">
+
+            <img class="icons" src="./images/icon-study.svg" alt="">
+
+            <div class="data-cards">
+
+                <p class="card-name">Study
+                    <svg class="ellipsis" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                            fill-rule="evenodd" />
+                    </svg>
+                </p>
+
+
+
+                <!-- daily study data -->
+                <h2 class="daily-data">0hr</h2>
+                <p class="daily-data-previous custom-pre">Last Day-1hrs</p>
+                <!-- weekly study data -->
+                <h2 class="weekly-data">4hrs</h2>
+                <p class="weekly-data-previous custom-pre">Last week-7hrs</p>
+                <!-- monthly study data -->
+                <h2 class="monthly-data">13hrs</h2>
+                <p class="monthly-data-previous custom-pre">Last month-19hrs</p>
+
+            </div>
+
+        </div>
+        <!--************************************************* study card ends -->
+
+        <!--************************************************* exercise card starts -->
+        <div class="data-container" id="exercise-con">
+
+            <img class="icons" src="./images/icon-exercise.svg" alt="">
+
+            <div class="data-cards">
+
+                <p class="card-name">Exercise
+                    <svg class="ellipsis" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                            fill-rule="evenodd" />
+                    </svg>
+                </p>
+
+
+
+                <!-- daily exercise data -->
+                <h2 class="daily-data">1hr</h2>
+                <p class="daily-data-previous custom-pre">Last Day-1hrs</p>
+                <!-- weekly exercise data -->
+                <h2 class="weekly-data">4hrs</h2>
+                <p class="weekly-data-previous custom-pre">Last week-5hrs</p>
+                <!-- monthly exercise data -->
+                <h2 class="monthly-data">11hrs</h2>
+                <p class="monthly-data-previous custom-pre">Last month-18hrs</p>
+
+            </div>
+
+        </div>
+        <!--************************************************* exercise card ends -->
+
+        <!--************************************************* social card starts -->
+        <div class="data-container" id="social-con">
+
+            <img class="icons" src="./images/icon-social.svg" alt="">
+
+            <div class="data-cards">
+
+                <p class="card-name">Social
+                    <svg class="ellipsis" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                            fill-rule="evenodd" />
+                    </svg>
+                </p>
+
+
+
+                <!-- daily Social data -->
+                <h2 class="daily-data">1hr</h2>
+                <p class="daily-data-previous custom-pre">Last Day-3hrs</p>
+                <!-- weekly Social data -->
+                <h2 class="weekly-data">5hrs</h2>
+                <p class="weekly-data-previous custom-pre">Last week-10hrs</p>
+                <!-- monthly Social data -->
+                <h2 class="monthly-data">21hrs</h2>
+                <p class="monthly-data-previous custom-pre">Last month-23hrs</p>
+
+            </div>
+
+        </div>
+        <!--************************************************* social card ends -->
+
+        <!--************************************************* SelfCare card starts -->
+        <div class="data-container" id="selfcare-con">
+
+            <img class="icons" src="./images/icon-self-care.svg" alt="">
+
+            <div class="data-cards">
+
+                <p class="card-name">Self care
+                    <svg class="ellipsis" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                            fill-rule="evenodd" />
+                    </svg>
+                </p>
+
+
+                <!-- daily SelfCare data -->
+                <h2 class="daily-data">0hr</h2>
+                <p class="daily-data-previous custom-pre">Last Day-1hrs</p>
+                <!-- weekly SelfCare data -->
+                <h2 class="weekly-data">2hrs</h2>
+                <p class="weekly-data-previous custom-pre">Last week-2hrs</p>
+                <!-- monthly SelfCare data -->
+                <h2 class="monthly-data">7hrs</h2>
+                <p class="monthly-data-previous custom-pre">Last month-11hrs</p>
+
+            </div>
+
+        </div>
+        <!--************************************************* SelfCare card ends -->
+
+    </div>
+
+    <script src="./script/main.js"></script>
+</body>
+
+</html>
