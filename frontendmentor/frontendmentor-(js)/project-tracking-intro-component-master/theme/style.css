@@ -1,3 +1,10 @@
+:root {
+    --Very-Dark-Blue: hsl(230, 29%, 20%);
+    --Dark-Grayish-Blue: hsl(230, 11%, 40%);
+    --Grayish-Blue: hsl(231, 7%, 65%);
+    --Light-Grayish-Blue: hsl(207, 33%, 95%);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 * {
@@ -31,7 +38,7 @@ body::before {
 h1,
 h4,
 .btn {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'barlow Condensed', sans-serif;
     text-transform: uppercase;
 }
 
@@ -40,7 +47,7 @@ nav ul {
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'barlow Condensed', sans-serif;
     color: hsl(230, 29%, 20%);
     font-weight: 700;
     cursor: pointer;
@@ -144,7 +151,7 @@ p {
     ul {
         display: flex !important;
     }
-    li:hover {
+    a li:hover {
         border-bottom: 1px solid hsl(230, 29%, 20%);
     }
     .dot {
