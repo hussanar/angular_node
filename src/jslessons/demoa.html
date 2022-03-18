@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+
+<body>
+    <p>
+        <label for="firstvalue">X:</label>
+        <input id="firstvalue" type="text" plceholder="enter a number" />
+
+    </p>
+    <p>
+        <label for="secondvalue">Y:</label>
+        <input id="secondvalue" type="text" plceholder="enter a number" />
+
+        <input type="button" value="ok" onclick="add()" />
+    </p>
+    <p>
+        <input type="button" value="+" onclick="sum()" />
+    </p>
+    <p>
+        <input type="button" value="add again" onclick="sum(100,50)" />
+        <input type="button" value="add with parameters" onclick="sum((document.getElementById('firstvalue').value),(document.getElementById('firstvalue').value))" />
+    </p>
+    <p>
+        <input type="button" value="problem1" onclick="problem1()" />
+
+    </p>
+    <p>
+        <input type="button" value="problem2" onclick="problem2()" />
+
+    </p>
+    <p>
+        <input type="button" id="button" value="problem3" onclick="problem3()">
+    </p>
+    <input type="button" id="button" value="problem3" onclick="printdigits()" />
+
+    <input type="button" id="" value="reverse" onclick="reverse((document.getElementById('firstvalue').value))" />
+    <div id="result"></div>
+
+
+
+
+
+
+
+
+    <script src="./scripts/demoa.js?v=1"></script>
+
+</body>
+
+
+</html>
