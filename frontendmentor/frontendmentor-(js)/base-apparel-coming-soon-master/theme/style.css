@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -11,10 +11,10 @@ body {
 }
 
 header {
-    position: absolute;
     height: auto;
-    width: 100%;
     padding: 30px;
+    position: absolute;
+    width: 100%;
 }
 
 header img {
@@ -22,42 +22,42 @@ header img {
 }
 
 .container {
-    padding-top: 100px;
-    min-height: 100vh;
-    width: 100%;
+    align-items: center;
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-end;
-    align-items: center;
-    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    min-height: 100vh;
     padding-bottom: 50px;
+    padding-top: 100px;
+    width: 100%;
 }
 
 .container .left {
-    width: 100%;
     padding: 50px 30px 0 30px;
+    width: 100%;
 }
 
 .container .right {
-    width: 100%;
-    height: 300px;
     background-image: url(./images/hero-mobile.jpg);
     background-size: cover;
+    height: 300px;
+    width: 100%;
 }
 
 .container .right img {
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
 
 .container .left h1 {
-    letter-spacing: .5rem;
-    text-align: center;
+    color: hsl(0, 36%, 70%);
     font-size: 3.2rem;
     font-weight: 200;
-    text-transform: uppercase;
-    color: hsl(0, 36%, 70%);
+    letter-spacing: .5rem;
     line-height: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .container .left h1 span {
@@ -66,53 +66,53 @@ header img {
 }
 
 .container .left p {
-    max-width: 450px;
-    text-align: center;
     color: hsl(0, 36%, 70%);
     font-size: .9rem;
     line-height: 1.5rem;
     margin: 20px auto 40px auto;
+    max-width: 450px;
+    text-align: center;
 }
 
 .container form {
-    position: relative;
     display: block;
     height: 50px;
-    width: 100%;
-    max-width: 400px;
     margin: 0 auto;
+    max-width: 400px;
+    position: relative;
+    width: 100%;
 }
 
 .container form input {
-    position: absolute;
-    width: 100%;
-    outline: none;
-    border: 1px solid hsl(0, 36%, 70%);
-    height: 100%;
     border-radius: 50px;
-    padding-left: 30px;
+    border: 1px solid hsl(0, 36%, 70%);
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.1rem;
+    height: 100%;
+    outline: none;
+    padding-left: 30px;
+    position: absolute;
+    width: 100%;
 }
 
 .container form label {
-    visibility: hidden;
     position: absolute;
+    visibility: hidden;
 }
 
 .container form button {
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 0px 18px 1px #f4aaab82;
+    color: white;
     cursor: pointer;
+    height: 100%;
+    outline: none;
     position: absolute;
     right: 0;
-    border: none;
-    outline: none;
-    color: white;
-    width: 70px;
-    height: 100%;
-    border-radius: 50px;
-    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-    box-shadow: 0px 0px 18px 1px #f4aaab82;
     transition: .3s ease box-shadow;
+    width: 70px;
 }
 
 .container form button:hover {
@@ -129,18 +129,18 @@ header img {
 
 .container form .error-icon {
     display: inline-block;
+    display: none;
     position: absolute;
     right: 85px;
     top: 24%;
-    display: none;
 }
 
 .container form .error-text {
-    position: absolute;
-    left: 30px;
-    top: 40px;
-    font-size: 1rem;
     display: none;
+    font-size: 1rem;
+    left: 30px;
+    position: absolute;
+    top: 40px;
 }
 
 .container form.error .error-icon,
@@ -153,12 +153,12 @@ header img {
 }
 
 footer {
-    padding: 10px 0;
     background-color: black;
     color: white;
-    text-align: center;
     font-size: .8rem;
     line-height: 1.2rem;
+    padding: 10px 0;
+    text-align: center;
 }
 
 footer a {
@@ -171,33 +171,33 @@ footer a {
         padding-left: 10%;
     }
     .container {
-        padding-top: 0;
         flex-direction: row;
         padding-bottom: 0;
+        padding-top: 0;
     }
     .container .right {
-        width: 80%;
-        height: 100vh;
         background-image: url(../images/hero-desktop.jpg);
+        height: 100vh;
+        width: 80%;
     }
     .container .left {
-        padding-top: 28vh;
-        width: 100%;
+        background-image: url(../images/bg-pattern-desktop.svg);
+        background-position: center;
+        background-size: cover;
         height: 100vh;
         padding-left: 10%;
-        background-image: url(../images/bg-pattern-desktop.svg);
-        background-size: cover;
-        background-position: center;
+        padding-top: 28vh;
+        width: 100%;
     }
     .container .left h1 {
-        text-align: left;
         font-size: 5rem;
         line-height: 5.5rem;
+        text-align: left;
     }
     .container .left p {
+        font-size: 1.1rem;
         margin-left: 0;
         text-align: left;
-        font-size: 1.1rem;
     }
     .container form {
         margin-left: 0;

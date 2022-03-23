@@ -15,7 +15,6 @@ function checkMail() {
     }
     if (fname == "") {
         alert(" Enter Your name!");
-        return false;
 
     }
 

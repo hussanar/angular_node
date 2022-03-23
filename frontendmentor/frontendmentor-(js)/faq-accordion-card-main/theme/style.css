@@ -41,7 +41,7 @@ body {
     background-position: 1260% 65%;
 }
 
-.question-answer-accordion>.answer {
+.question-answer-main>.answer {
     display: none;
 }
 
@@ -56,24 +56,24 @@ body {
     transition: all 0.3s ease-in;
 }
 
-.accordion-wrapper {
+.main-wrapper {
     margin-top: 65px;
     display: flex;
     flex-direction: column;
 }
 
-.questions-accordions {
+.questions-mains {
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.question-answer-accordion {
+.question-answer-main {
     width: 350px;
     border-bottom: 1px solid #e8e8ea;
 }
 
-.title-accordion {
+.title-main {
     font-size: 3rem;
     margin-top: 0px;
 }
@@ -145,13 +145,13 @@ body {
         left: 19%;
         top: -30%;
     }
-    .accordion-wrapper {
+    .main-wrapper {
         margin-top: 0px;
     }
-    .question-answer-accordion {
+    .question-answer-main {
         width: 100%;
     }
-    .title-accordion {
+    .title-main {
         text-align: center;
     }
 }

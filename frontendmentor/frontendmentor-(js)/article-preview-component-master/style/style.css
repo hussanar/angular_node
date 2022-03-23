@@ -9,9 +9,9 @@
 *,
 *::before,
 *::after {
+    box-sizing: inherit;
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
 }
 
 html {
@@ -21,56 +21,56 @@ html {
 }
 
 body {
+    align-items: center;
+    background: var(--light-gray-blue);
+    display: flex;
+    flex-direction: column;
+    font-family: "Manrope", sans-serif;
+    justify-content: center;
     min-height: 100%;
     padding: 0 2.4rem;
-    background: var(--light-gray-blue);
-    font-family: "Manrope", sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 
 main {
-    max-width: 32.7rem;
     border-radius: 1rem;
-    overflow: hidden;
     box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
+    max-width: 32.7rem;
+    overflow: hidden;
 }
 
 .image-container {
     background: url(../images/drawers.jpg);
-    width: 100%;
     background-size: cover;
     height: 20rem;
+    width: 100%;
 }
 
 .copy {
-    padding: 4.2rem 3.2rem 2.2rem;
     background: #ffff;
+    padding: 4.2rem 3.2rem 2.2rem;
 }
 
 h2 {
+    color: var(--dark-gray-blue);
     font-size: 1.6rem;
     line-height: 1.5;
     padding-bottom: 1.3rem;
     letter-spacing: 0.3px;
-    color: var(--dark-gray-blue);
 }
 
 .copy p {
+    color: var(--desaturated-blue);
     font-size: 1.2rem;
     letter-spacing: 0.7px;
     line-height: 1.6;
-    color: var(--desaturated-blue);
 }
 
 footer {
+    align-items: center;
+    background: #ffff;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     position: relative;
-    background: #ffff;
     padding: 1rem 3.2rem 2rem;
 }
 
@@ -79,15 +79,15 @@ footer {
 }
 
 .author img {
+    border-radius: 50%;
     height: 4rem;
     width: 4rem;
-    border-radius: 50%;
 }
 
 .about {
-    padding-left: 1.5rem;
     align-self: center;
     font-size: 1.1rem;
+    padding-left: 1.5rem;
 }
 
 h3 {
@@ -100,32 +100,32 @@ time {
 }
 
 .arrow {
+    align-items: center;
     background: var(--light-gray-blue);
-    width: 3.2rem;
-    height: 3.2rem;
     border-radius: 50%;
     cursor: pointer;
-    z-index: 10;
-    margin-top: 0.5rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    height: 3.2rem;
+    margin-top: 0.5rem;
+    width: 3.2rem;
+    z-index: 10;
 }
 
 .share {
-    display: flex;
     align-items: center;
-    position: absolute;
     background: var(--dark-gray-blue);
-    left: 0;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
     bottom: 0;
+    display: flex;
+    position: absolute;
+    left: 0;
     top: 0;
     opacity: 0;
     visibility: hidden;
     width: 100%;
     padding: 0 3.2rem;
-    border-bottom-right-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
     transition: all 0.3s ease-in-out;
 }
 
