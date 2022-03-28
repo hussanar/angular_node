@@ -26,8 +26,8 @@
 }
 
 header {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
     padding: 2rem 5rem;
 }
@@ -40,26 +40,26 @@ header {
 }
 
 .logo img {
+    align-items: center;
     cursor: pointer;
 }
 
 .nav-links ul {
     display: flex;
-    align-items: center;
 }
 
 .nav-links li {
-    margin: 1.5rem;
     list-style: none;
+    margin: 1.5rem;
 }
 
 .nav-links a {
-    text-decoration: none;
-    font-family: var(--font-family-b);
     color: #fff;
+    font-family: var(--font-family-b);
     font-weight: normal;
     font-weight: 600;
     transition: all 0.3s ease-in-out;
+    text-decoration: none;
 }
 
 .nav-links a:hover {
@@ -68,18 +68,18 @@ header {
 
 .nav-links button {
     padding: 0.5rem 0.75rem;
-    width: 8rem;
     height: 3rem;
     border-radius: 3rem;
     border-style: none;
     background-color: #fff;
-    margin: 0rem 2rem;
+    cursor: pointer;
+    color: var(--Very-dark-desaturated-blue);
     font-family: var(--font-family-f);
     font-weight: 700;
     font-size: 0.9rem;
-    color: var(--Very-dark-desaturated-blue);
-    cursor: pointer;
+    margin: 0rem 2rem;
     text-transform: all 0.3s ease-in-out;
+    width: 8rem;
 }
 
 .nav-links button:hover {
@@ -88,35 +88,35 @@ header {
 }
 
 .hero {
-    min-height: 75vh;
-    text-align: center;
     padding: 3rem 0rem;
     position: relative;
+    min-height: 75vh;
+    text-align: center;
 }
 
 .hero::after {
     content: url(../images/icon-arrow-down.svg);
-    position: absolute;
     left: 50%;
+    position: absolute;
     top: 38%;
     transform: translate(-38%, -50%);
 }
 
 .hero h1 {
+    color: #fff;
+    font-weight: 900;
     font-family: var(--font-family-f);
     font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 5px;
     word-spacing: 5px;
-    color: #fff;
-    font-weight: 900;
 }
 
 .content-one,
 .content-two {
-    width: 100%;
     display: flex;
     min-height: 75vh;
+    width: 100%;
 }
 
 .content-two {
@@ -124,73 +124,73 @@ header {
 }
 
 .content-one-image {
-    width: 50vw;
-    background: url(../images/desktop/image-transform.jpg);
-    min-height: 75vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background: url(../images/desktop/image-transform.jpg);
+    min-height: 75vh;
+    width: 50vw;
 }
 
 .content-image-two {
-    width: 50vw;
     background: url(../images/desktop/image-stand-out.jpg);
-    min-height: 75vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    min-height: 75vh;
+    width: 50vw;
 }
 
 .content-1-text {
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     min-height: 75vh;
     width: 50vw;
 }
 
 .content-1-text h3 {
-    margin: 1rem 0rem;
-    font-size: 2.8rem;
-    max-width: 28rem;
-    font-family: var(--font-family-f);
     color: var(--Very-dark-desaturated-blue);
+    font-size: 2.8rem;
+    font-family: var(--font-family-f);
+    margin: 1rem 0rem;
+    max-width: 28rem;
 }
 
 .content-1-text p {
+    color: var(--Dark-grayish-blue);
+    font-size: 18px;
     font-family: var(--font-family-b);
     line-height: 1.8;
     margin: 1.5rem 0rem;
     max-width: 28rem;
-    color: var(--Dark-grayish-blue);
-    font-size: 18px;
     text-align: justify;
 }
 
 .content-1-text button {
     background-color: transparent;
     border-style: none;
-    font-family: var(--font-family-f);
-    font-size: 1.2rem;
-    margin-top: 1rem;
     color: var(--Dark-desaturated-cyan);
     cursor: pointer;
+    font-family: var(--font-family-f);
+    font-size: 1.2rem;
     position: relative;
+    margin-top: 1rem;
 }
 
 .content-1-text button::after {
+    background: var(--Yellow);
+    border-radius: 10px;
+    bottom: 0;
     content: '';
     height: 50%;
-    width: 115%;
-    background: var(--Yellow);
     position: absolute;
-    bottom: 0;
     left: -10px;
-    z-index: -1;
-    border-radius: 10px;
     opacity: 0.4;
     transition: all 0.2s ease-in-out;
+    width: 115%;
+    z-index: -1;
 }
 
 .content-1-text button:hover::after {
@@ -198,17 +198,17 @@ header {
 }
 
 .content-2-text button::after {
+    bottom: 0;
+    background: var(--Soft-red);
+    border-radius: 10px;
     content: '';
     height: 50%;
-    width: 115%;
-    background: var(--Soft-red);
     position: absolute;
-    bottom: 0;
     left: -10px;
-    z-index: -1;
-    border-radius: 10px;
     opacity: 0.4;
     transition: all 0.2s ease-in-out;
+    width: 115%;
+    z-index: -1;
 }
 
 .content-2-text button:hover::after {
@@ -216,57 +216,57 @@ header {
 }
 
 .graphic-content {
-    width: 100%;
-    display: flex;
     align-items: center;
+    display: flex;
     min-height: 75vh;
+    width: 100%;
 }
 
 .graphic-one {
-    width: 50%;
-    min-height: 75vh;
     background: url(../images/desktop/image-graphic-design.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    color: var(--Dark-desaturated-cyan);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    min-height: 75vh;
     padding-bottom: 5%;
     text-align: center;
-    color: var(--Dark-desaturated-cyan);
+    width: 50%;
 }
 
 .graphic-two {
-    width: 50%;
-    min-height: 75vh;
     background: url(../images/desktop/image-photography.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    color: var(--Very-dark-desaturated-blue);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    min-height: 75vh;
     padding-bottom: 5%;
     text-align: center;
-    color: var(--Very-dark-desaturated-blue);
+    width: 50%;
 }
 
 .graphic-one h3,
 .graphic-two h3 {
-    margin: 1rem 0rem;
     font-size: 2.5rem;
     font-family: var(--font-family-f);
     font-weight: 900;
+    margin: 1rem 0rem;
 }
 
 .graphic-one p,
 .graphic-two p {
     font-family: var(--font-family-b);
+    font-size: 18px;
+    line-height: 1.5;
     margin: 0rem 10%;
     margin-top: 1rem;
-    line-height: 1.5;
-    font-size: 18px;
 }
 
 .testimonial {
@@ -275,35 +275,35 @@ header {
 }
 
 .testimonial h2 {
+    color: var(--Very-dark-grayish-blue);
+    font-family: var(--font-family-f);
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
     margin-top: 8rem;
     margin-bottom: 8rem;
-    font-family: var(--font-family-f);
-    text-align: center;
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    color: var(--Very-dark-grayish-blue);
-    letter-spacing: 3px;
     word-spacing: 5px;
-    font-weight: 900;
 }
 
 .testimonial-wrapper {
-    display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .content-testimonial {
     text-align: center;
-    width: auto;
     margin: 0.5rem 1.5rem;
+    width: auto;
 }
 
 .content-testimonial img {
     border-radius: 50%;
-    transform: scale(0.8);
     margin-bottom: 3rem;
+    transform: scale(0.8);
 }
 
 .testimonial>div {
@@ -311,75 +311,75 @@ header {
 }
 
 .content-testimonial p {
-    line-height: 1.5;
+    color: var(--Very-dark-grayish-blue);
     font-family: var(--font-family-b);
     font-size: 18px;
+    line-height: 1.5;
     margin-bottom: 3.5rem;
     max-width: 22rem;
-    color: var(--Very-dark-grayish-blue);
 }
 
 .content-testimonial h4 {
+    color: var(--Dark-blue);
     font-family: var(--font-family-f);
     font-size: 18px;
-    color: var(--Dark-blue);
     font-weight: 900;
 }
 
 .content-testimonial h4 span {
+    color: var(--Dark-grayish-blue);
     font-family: var(--font-family-b);
     font-size: 1rem;
-    color: var(--Dark-grayish-blue);
     font-weight: 600;
 }
 
 .display-images {
-    width: 100%;
-    min-height: 65vh;
     display: flex;
+    min-height: 65vh;
+    width: 100%;
 }
 
 .milk-image {
     background: url(../images/desktop/image-gallery-milkbottles.jpg);
     background-position: center;
     background-size: cover;
-    width: 25%;
     min-height: 65vh;
+    width: 25%;
 }
 
 .orange-image {
     background: url(../images/desktop/image-gallery-orange.jpg);
     background-position: center;
     background-size: cover;
-    width: 25%;
     min-height: 65vh;
+    width: 25%;
 }
 
 .cone-image {
     background: url(../images/desktop/image-gallery-cone.jpg);
     background-position: center;
     background-size: cover;
-    width: 25%;
     min-height: 65vh;
+    width: 25%;
 }
 
 .cube-image {
     background: url(../images/desktop/image-gallery-sugarcubes.jpg);
     background-position: center;
     background-size: cover;
-    width: 25%;
     min-height: 65vh;
+    width: 25%;
 }
 
 footer {
-    width: 100%;
-    min-height: 45vh;
+    align-items: space-between;
     background: #90D4C5;
     display: flex;
     flex-direction: column;
-    align-items: space-between;
     justify-content: center;
+    min-height: 45vh;
     text-align: center;
+    width: 100%;
 }
 
 footer img {
@@ -408,10 +408,10 @@ footer img {
 }
 
 .social-links i {
-    margin: 1rem;
-    transform: scale(1.5);
     color: var(--Dark-desaturated-cyan);
     cursor: pointer;
+    margin: 1rem;
+    transform: scale(1.5);
     transition: all 0.3s ease-in-out;
 }
 
@@ -420,9 +420,9 @@ footer img {
 }
 
 .checkbox {
+    opacity: 0;
     position: absolute;
     pointer-events: none;
-    opacity: 0;
 }
 
 .menu {
@@ -435,8 +435,8 @@ footer img {
         flex-direction: column-reverse;
     }
     .content-1-text {
-        width: 100vw;
         text-align: center;
+        width: 100vw;
     }
     .content-one-image,
     .content-image-two {
@@ -454,20 +454,20 @@ footer img {
         padding: 2rem 2rem;
     }
     .nav-links {
-        position: absolute;
-        top: 85%;
-        width: 85vw;
-        text-align: center;
-        background: #fff;
-        z-index: 999;
-        padding: 3rem 0rem;
-        display: flex;
         align-items: center;
+        border-radius: 0px 0px 10px 10px;
+        background: #fff;
+        display: flex;
         justify-content: center;
+        position: absolute;
+        padding: 3rem 0rem;
+        top: 85%;
+        text-align: center;
         transition: transform 0.3s linear;
         transform: scale(0);
         transform-origin: top;
-        border-radius: 0px 0px 10px 10px;
+        width: 85vw;
+        z-index: 999;
     }
     .nav-links ul {
         flex-direction: column;

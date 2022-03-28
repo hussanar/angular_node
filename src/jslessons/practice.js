@@ -1,1 +1,1 @@
-var list =["hussain",18,"cbe",12]
+document.write("Hello JavaScript by JavaScript");
