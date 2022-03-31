@@ -1,0 +1,49 @@
+.tab {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 0px;
+}
+
+.buttons {
+    margin: 10px;
+}
+
+label {
+    font-weight: bolder;
+}
+
+.field {
+    align-self: center;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    padding: 3px;
+    width: 300px;
+}
+
+.buttons button {
+    margin: 20px;
+}
+
+#table,
+#table1 {
+    border: 1px solid black;
+    text-align: left;
+    width: 1350px;
+}
+
+#table tr th,
+#table1 tr th {
+    border: 1px solid black;
+    margin: 30px;
+}
+
+.search {
+    margin-bottom: 40px;
+    margin-top: -50px;
+    text-align: center;
+}

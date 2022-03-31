@@ -46,7 +46,7 @@ function checkEmptyInput() {
 
 // add Row
 function addHtmlTableRow() {
-    // get the table by id
+    // get the table by idce\\
     // create a new row and cells
     // get value from input text
     // set the values into row cell's
