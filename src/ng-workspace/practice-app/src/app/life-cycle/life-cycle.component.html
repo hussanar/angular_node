@@ -1,0 +1,56 @@
+<p>Hello {{name}}</p>
+<!-- <app-life-cycle *ngIf="show" name="{{name}}"></app-life-cycle> -->
+<!-- <p>Stat the life cycle event Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quaerat necessitatibus nihil adipisci omnis vel unde quam repellat autem alias!</p>-->
+
+<button type="btn" (click)="toggle()" [disabled]="isdisabled">toggle</button>
+
+<!-- ng on in it la Api calls use panniklam.
+ng distroy la set time out kudukka kudathu
+=> on change dom la yentha change vanthalum autoimatic a ngonchange trigger agum 
+it 
+if we need to change any thing in the flow of the angular if one component is generated the imediately Call the API , if any component is deleted the we need to unsubscribe the event -->
+<!-- 
+    ng-oninit=>
+user detail a fetch panni ng on it la vechukklam.
+(ngOnInit is a life cycle hook called by Angular to indicate that the Angular is done creating the component. In order to use OnInit we have to import it in the component class like this: import {Component, OnInit} from '@angular/core'; Actually implementing OnInit in every component is not mandatory)
+ -->
+<!-- ngOndistroy -->
+<!-- Ng-DoCheck
+ Will check When ever the property or template is change in the component it will execute // impliment it in interface
+ {
+     ngDoCheck()link
+A callback method that performs change-detection, invoked after the default change-detector runs. See KeyValueDiffers and IterableDiffers for implementing custom change checking for collections.
+ }
+-->
+<!--ngAfterContentInit 
+    ng AFTER the content is initialize the it will execute. 
+ execute only ones.
+{
+    ngAfterContentInit()link
+A callback method that is invoked immediately after Angular has completed initialization of all of the directive's content. It is invoked only once when the directive is instantiated
+} -->
+<!-- ngAnfterContentCheck:
+    ng after content check if any changes accure in the content imediately ng after content checked is called.
+    {
+        A callback method that is invoked immediately after the default change detector has completed checking all of the directive's content.}
+
+  -->
+<!--  Ng AfterViewinit
+  when the html compont is rendered,
+  called only once, {
+      Angular ngAfterViewInit() is the method of AfterViewInit interface. ngAfterViewInit() is a lifecycle hook that is called after Angular has fully initialized a component's views. ngAfterViewInit() is used to handle any additional initialization tasks. Find the AfterViewInit interface code from Angular doc.
+  }
+  -->
+<!-- Ng AfterView checked :
+    when the any chenge accure in the View (ng docheck , ngaftercontentchecked, ngafterView ,check is called every change in the content)
+ -->
+<!--ng on distroy  : 
+      when the component is distroy(deleted) this ng-distory is called .
+    {NgOnDestroy is a lifecycle method that can be added by implementing OnDestroy on the class and adding a new class method named ngOnDestroy . It's primary purpose according to the Angular Docs is to “Cleanup just before Angular destroys the directive/component.} -->
+<p [innerHtml]="innerText"></p>
+<button class="btn btn-primary" (click)="clicked()">change</button>
+<p>{{name}}</p>
+<input type="text" [(ngModel)]="name" />
+
+<!-- ngModel is the default directive 
+we can change the property of the  -->

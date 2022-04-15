@@ -1,0 +1,43 @@
+<!-- //constructor depoendency injection @injectable => when the service contain another service. //router redirect the request.
+mvvm=> model view model html \css =>view 
+bissness logic (TS)=>view model(doging ta binding )
+model=>container to diclare the values store the data variables.
+defining the structure of an entity,following the object oriented principle.
+so if you want to use a model for user,it could look like this 
+class User{
+    userName:string;
+    password:string;
+}
+model should not contain the any logic . All your logic should be defined in view Model
+ 
+
+
+-->
+<div class="container">
+    <div class="row" height="600px" style="background-color:aqua;">
+        <div class="col-sm-12" style="height:50px; text-align:center; margin-top: 20px">
+            <app-header></app-header>
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="side-bar col-sm-4">
+            <!-- <app-side-bar></app-side-bar> -->
+            <a routerLink="dpt">Department</a><br>
+            <a routerLink="library">Library</a><br>
+            <a routerLink="sport">Sports</a><br>
+        </div>
+        <div class="article  col-sm-8">
+            <!-- <app-article></app-article> -->
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+    <div class="row" height="600px" style="background-color:aqua;">
+        <div class="col-sm-12" style="height:50px; text-align:center; margin-top: 20px">
+            <app-footer></app-footer>
+        </div>
+
+
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<h2>Employee-List</h2>
+<ul *ngFor="let items of employees">
+    <li>{{items.name}}</li>
+</ul>
+<h2>{{title}}</h2>
+<ul *ngFor="let employee of employees">
+    <li>{{employee.name}}+{{employee.age}}.{{employee.id}}</li>
+</ul>
+<!-- sevice is a class with a specific purpose 
+1)share data 
+2)implement application logic
+3)External Interraction
+naming convension .service.ts-->
