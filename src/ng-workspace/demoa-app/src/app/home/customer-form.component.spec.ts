@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CustomerFormComponent } from './customer-form.component';
+import { CustomerFormComponent } from '../customer-form/customer-form.component';
 
 describe('CustomerFormComponent', () => {
   let component: CustomerFormComponent;
@@ -8,9 +8,9 @@ describe('CustomerFormComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CustomerFormComponent ]
+      declarations: [CustomerFormComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {

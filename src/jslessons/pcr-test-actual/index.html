@@ -5,69 +5,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RTPCR - Form</title>
-    <link rel="stylesheet" href="style.css">
+    <title>PCR-FORM</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <h1><b>PCR-FORM</b></h1>
     <div class="container">
-        <div class="tab tab-container">
-            <h1>RT-PCR REGISTRATION FORM</h1>
-            <hr>
-            <div class="field">
-                <label for="fname">First Name :</label>
-                <input type="text" name="fname" id="fname">
-            </div>
-            <div class="field">
-                <label for="lname">Last Name :</label>
-                <input type="text" name="lname" id="lname">
-            </div>
-            <div class="field">
-                <label for="date-of-birth">Date Of Birth :</label>
-                <input type="date" name="dob" id="dob">
-            </div>
-            <div class="field" id="check-gen">
-                <label for="gender">Gender :</label>
-                <input type="text" name="gender" id="gender">
+        <div class="tab tab-2">
+            <form name="myForm">
+                <div class="field">
+                    <label for="fname">First Name :</label>
+                    <input type="text" name="fname" id="fname">
+                </div>
+                <div class="field">
+                    <label for="lname">Last Name :</label>
+                    <input type="text" name="lname" id="lname">
+                </div>
+                <div class="field">
+                    <label for="date-of-birth">Date Of Birth :</label>
+                    <input type="date" name="dob" id="dob">
+                </div>
+                <div class="field" id="check-gen">
+                    <label for="gender">Gender :</label>
+                    <input type="text" name="gender" id="gender">
 
-            </div>
-            <div class="field">
-                <label for="city">City :</label>
-                <input type="text" name="city" id="city">
-            </div>
-            <div class="field">
-                <label for="date-of-test">Date Of Test :</label>
-                <input type="date" name="date" id="date">
-            </div>
-            <div class="field">
-                <label for="time-of-test">Time Of Test :</label>
-                <input type="time" name="time" id="time">
-            </div>
-            <div class="field">
-                <label for="lab">Lab Name :</label>
-                <input type="text" name="lab" id="lab">
-            </div>
-            <div class="field">
-                <label for="report">Report Number :</label>
-                <input type="text" name="report" id="report">
-            </div>
-            <div class="field">
-                <label for="result">Result :</label>
-                <input type="text" name="result" id="result">
-            </div>
-            <div class="field">
-                <label for="aadhar">Aadhar Numbar :</label>
-                <input type="number" name="aadhar" id="aadhar">
-            </div>
+                </div>
+                <div class="field">
+                    <label for="city">City :</label>
+                    <input type="text" name="city" id="city">
+                </div>
+                <div class="field">
+                    <label for="date-of-test">Date Of Test :</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <div class="field">
+                    <label for="time-of-test">Time Of Test :</label>
+                    <input type="datetime" name="time" id="time">
+                </div>
+                <div class="field">
+                    <label for="lab">Lab Name :</label>
+                    <input type="text" name="lab" id="lab">
+                </div>
+                <div class="field">
+                    <label for="report">Report Number :</label>
+                    <input type="text" name="report" id="report">
+                </div>
+                <div class="field">
+                    <label for="result">Result :</label>
+                    <input type="text" name="result" id="result">
+                </div>
+                <div class="field">
+                    <label for="aadhar">Aadhar Numbar :</label>
+                    <input type="number" name="aadhar" id="aadhar">
+                </div>
+                <div class="buttons">
 
-            <div class="buttons">
-                <button id="btn">Add</button>
-            </div>
+                    <button id="add">Add</button>
+                </div>
+            </form>
         </div>
         <div class="search">
-
             <input type="text" id="find" placeholder="Enter name to search">
-            <input type="submit" id="submit">
+            <input type="submit" id="ip" value="search">
             <div id="msg"></div>
         </div>
         <div class="tab tab-1">
@@ -87,9 +87,9 @@
                 </tr>
             </table>
         </div>
-        <div class="tab tab-1 " id="tab-3">
+        <div class="tab tab-1">
             <table id="table1" style="border: 1;">
-                <tr>
+                <tr id="second">
                     <th>First Name</th>
                     <th>Last Name</th>
                     <th>Date Of Birth</th>
@@ -106,7 +106,7 @@
         </div>
 
     </div>
-    <script src="./elements.js" type="module"></script>
+    <script src="./eventhandler.js" type="module"></script>
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { BookdaoService } from '../booksdao.service.service';
 @Component({
   selector: 'app-book-list',
   templateUrl: './book-list.component.html',
@@ -8,38 +8,21 @@ import { Component, OnInit } from '@angular/core';
 export class BookListComponent implements OnInit {
   title = 'Financial Books';
   currentTab = 1;
-  books: Array<any> = [
-    {
-      name: '',
-      price: 270,
-      author: 'Muhammed Yunus',
-      canBuy: true,
-      images: [
-        { thumb: 'images/WorldofThreeZeros.png', full: '' }
-      ]
-    },
-    {
-      name: 'Zero to One',
-      price: 320,
-      author: 'Peter Thaiel',
-      canBuy: true,
-      images: [{ thumb: 'images/ZeroToOne.png', full: '' }]
-    }
-  ];
-  constructor() { }
-  ngOnInit(): void {
+  books: Array<any> = [];
+  constructor(private booksvc: BookdaoService) { }
 
+  ngOnInit(): void {
+    this.books = this.booksvc.getBooks();
   }
   onbuy(book: any) {
-    console.log('Book nadded to the cart ' + book.name)
+    console.log('Book added to the cart....' + book.name);
   }
   isTabSelected(tabIndex: number) {
     return this.currentTab === tabIndex;
   }
   onTabChange(event: any, tabIndex: number) {
-    event.preventDefault(); //To stop flicker
+    event.preventDefault();//to stop flicker
     this.currentTab = tabIndex;
-    console.log('Tab Selected: ' + this.currentTab);
+    console.log('Tab selected:' + this.currentTab);
   }
-
 }
